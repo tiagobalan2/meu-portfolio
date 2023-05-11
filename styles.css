@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+/*font-family: 'Source Code Pro', monospace;*/
+
+
+body {
+    background-image: linear-gradient(-45deg, #565759, #8C8C8C, #BFBFBF);
+    margin: 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: inline-flex; /*faz com que o tiago balan e o email fiquem na mesma linha*/
+    align-items: center; /*faz com que o tiago balan e o email fiquem no centro da linha*/
+    justify-content:space-between ; 
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+.meunome {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.164);
+    
+}
+
+.meunome:hover {
+    text-decoration: underline;
+    color: rgb(255, 38, 0);
+}
+    
+.email {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px; 
+}
+
+main {
+    
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+        
+        
+    
+    
+}
+
+.minhafoto {
+    width: 50%;   
+    
+}
+
+.paragrafotexto {
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+footer {
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+}
+
+
+
+.instagram {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
